@@ -1,0 +1,94 @@
+.faq {
+  &-area {
+    padding: em(80px) 0;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 0;
+
+    &:after {
+      content: '';
+      background-image: url('../images/shape-1.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      @include position(absolute, 0, 0, 0, null);
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+    }
+
+    .heading {
+      max-width: 600px;
+      margin: 0 auto;
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        margin-top: 20px;
+        color: #777;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: var(--regular);
+        position: relative;
+        display: block;
+      }
+    }
+  }
+
+  &-accordion {
+    margin-top: 70px;
+    .myaccordion {
+      max-width: 100%;
+      margin: 50px auto;
+      box-shadow: 0 0 1px rgba(0,0,0,0.1);
+
+      p {
+        font-size: 17px;
+        font-weight: 400;
+        font-family: var(--regular);
+        text-align: left;
+        position: relative;
+        line-height: 30px;
+        color: #777;
+      }
+    }
+
+    .myaccordion .card,
+    .myaccordion .card:last-child .card-header {
+      border: none;
+    }
+
+    .myaccordion .card-header {
+      border-bottom-color: #EDEFF0;
+      background: transparent;
+    }
+
+    .myaccordion .fa-stack {
+      font-size: 18px;
+    }
+
+    .myaccordion .btn {
+      width: 100%;
+      font-weight: bold;
+      color: var(--secondary-color);
+      padding: 0;
+    }
+
+    .myaccordion .btn-link:focus,
+    .myaccordion .btn-link:hover {
+      text-decoration: none;
+    }
+
+    .myaccordion li + li {
+      margin-top: 10px;
+    }
+  }
+
+  &-image {
+    img {
+      max-width: 300px;
+      margin-top: 80px;
+    }
+  }
+}
