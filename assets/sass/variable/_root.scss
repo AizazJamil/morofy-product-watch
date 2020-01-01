@@ -1,0 +1,45 @@
+// MyRiadPro
+@font-face {
+  font-family: 'MYRIADPRO-REGULAR';
+  src: url('../fonts/myriad-pro/MYRIADPRO-REGULAR.OTF');
+}
+@font-face {
+  font-family: 'MyriadPro-Light';
+  src: url('../fonts/myriad-pro/MyriadPro-Light.otf');
+}
+@font-face {
+  font-family: 'MYRIADPRO-SEMIBOLD';
+  src: url('../fonts/myriad-pro/MYRIADPRO-SEMIBOLD.OTF');
+}
+@font-face {
+  font-family: 'MYRIADPRO-BOLD';
+  src: url('../fonts/myriad-pro/MYRIADPRO-BOLD.OTF');
+}
+
+
+:root {
+  // font-family Open Sans
+  --regular: 'MYRIADPRO-REGULAR';
+  --light: 'MyriadPro-Light';
+  --medium: 'Poppins-Medium';
+  --semibold: 'MYRIADPRO-SEMIBOLD';
+  --bold: 'MYRIADPRO-BOLD';
+  --extrabold: 'Poppins-ExtraBold';
+
+  // Color variable
+  --primary-color: #ffebe2;
+  --secondary-color: #ec6353;
+  --white-color: #fff;
+  --black-color: #000;
+  --dark-color: #222;
+  --purple-color: rgb(106,125,241);
+  --yellow-color: #fed339;
+  --orange-color: #f96740;
+}
+
+
+// background-image: -webkit-linear-gradient(left, #00eda4, #6a7df1);
+// background-image: -moz-linear-gradient(left, #00eda4, #6a7df1);
+// background-image: -o-linear-gradient(left, #00eda4, #6a7df1);
+// background-image: -ms-linear-gradient(left, #00eda4, #6a7df1);
+// background-image: linear-gradient(to right, #00eda4, #6a7df1);
